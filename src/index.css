@@ -1,0 +1,66 @@
+body {
+  color: rgb(255, 255, 255);
+  font-weight : bold;
+  background: url('./assets/fondo.png') no-repeat center center fixed; /* Ruta de la imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.square:hover {
+  transform: scale(1.1); 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.square.X {
+  color: green;
+}
+
+.square.O {
+  color: red;
+}
+
+.restart-button {
+  padding: 15px 20px;
+  background: linear-gradient(90deg, #4736dc, #5b86e5); 
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restart-button:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.restart-button:active {
+  transform: translateY(1px); 
+}
