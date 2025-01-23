@@ -1,8 +1,8 @@
 body {
   color: rgb(255, 255, 255);
   font-weight : bold;
-  background: url('./assets/fondo.png') no-repeat center center fixed; /* Ruta de la imagen */
-  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background: url('./assets/fondo.png') no-repeat center center fixed; 
+  background-size: cover; 
   opacity: 90%;
   display: flex;
   justify-content: center;
